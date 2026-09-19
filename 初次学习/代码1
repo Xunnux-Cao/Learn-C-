@@ -1,1 +1,14 @@
-1.
+// 这是一个简单的C++程序，用于输出"Hello Word!"
+//#include <iostream>:它的作用是引入iostream头文件，用于输入输出操作
+#include <iostream>
+//using namespace std;它的作用是将标准命名空间的cout、endl等函数引入到当前作用域中
+//这样在使用cout和endl时，不需要在前面添加std::前缀
+using namespace std;
+int main(){
+    //cout输出,endl换行
+    cout << "Hello Word!" << endl;
+    //return 0:它的作用是返回0给操作系统，表示程序执行成功
+    //如果返回非0值，通常表示程序执行失败
+    //在C++中，0通常表示成功，非0值通常表示失败
+    return 0;
+}
