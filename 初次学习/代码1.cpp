@@ -1,5 +1,4 @@
-# 第一次代码
-'''cpp
+#第一次代码
 // 这是一个简单的C++程序，用于输出"Hello Word!"
 //#include <iostream>:它的作用是引入iostream头文件，用于输入输出操作
 
