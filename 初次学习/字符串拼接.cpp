@@ -15,9 +15,13 @@ int main(){
     str2 += c  + 'Q';
     cout << str2 << endl;
     cout << (int)(c + 'A') << endl; //就会像这样
+    //在进行字符串和int的拼接时，需要使用to_string()方法将int转换为字符串
+    string str3 = "123";
+    int a = 123;
+    cout << str3 + to_string(a) << endl;
 
     //利用string中的.append()方法拼接字符串
-    str2.append("789");
-    cout << str2 << endl;
+    str3.append("789");
+    cout << str3 << endl;
     return 0;
 }
